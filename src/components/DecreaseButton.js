@@ -2,7 +2,7 @@ import "./DecreaseButton.css"
 
 
 const DecreaseButton = (props) => {
-  return <button onClick={props.decrease}>
+  return <button className="btn" onClick={props.decrease}>
     Znížiť o 1
   </button>
 }

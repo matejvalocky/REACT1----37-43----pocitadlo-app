@@ -22,7 +22,7 @@ const App = () => {
   }
 
 
-  return <div>
+  return <div className="counter">
     <h1>Počítadlo</h1>
     <h2>{value}</h2>
     <DecreaseButton decrease={decreaseOne} />
